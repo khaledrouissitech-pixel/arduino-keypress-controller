@@ -1,4 +1,4 @@
-int sensorPin = 2;  // D0 from KY-032
+int sensorPin = 2; 
 
 void setup() {
   pinMode(sensorPin, INPUT);
