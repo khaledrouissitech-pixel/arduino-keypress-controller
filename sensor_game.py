@@ -1,10 +1,8 @@
 import serial
 import keyboard
 
-# Change COM3 to your Arduino port:
-#   Windows -> COM3, COM4, etc. (check Arduino IDE bottom-right)
-#   Linux   -> /dev/ttyUSB0
-#   Mac     -> /dev/tty.usbmodemXXXX
+# Change COM to your Arduino port:
+
 arduino = serial.Serial("COM5", 9600)
 
 while True:
